@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "blog": "博客",
+    "projects": "项目",
+    "about": "关于"
+  },
+  "home": {
+    "greeting": "你好，我是 {name}",
+    "cta_blog": "阅读博客",
+    "cta_about": "关于我"
+  },
+  "blog": {
+    "title": "博客",
+    "no_posts": "暂无文章，敬请期待。"
+  },
+  "about": {
+    "title": "关于",
+    "coming_soon": "即将上线。"
+  },
+  "projects": {
+    "title": "项目",
+    "coming_soon": "即将上线。"
+  },
+  "comments": {
+    "title": "评论",
+    "loading": "加载中…",
+    "empty": "暂无评论，来留下第一条吧！",
+    "name": "姓名 *",
+    "email": "邮箱 *（不公开显示）",
+    "body": "写下你的评论…",
+    "submit": "发表评论",
+    "submitting": "提交中…",
+    "name_required": "姓名不能为空",
+    "email_invalid": "邮箱格式不正确",
+    "body_required": "评论内容不能为空"
+  },
+  "footer": {
+    "rights": "保留所有权利。"
+  },
+  "not_found": {
+    "title": "页面不存在",
+    "description": "您访问的页面不存在或已被移动。",
+    "go_home": "返回首页"
+  },
+  "error": {
+    "title": "出错了",
+    "description": "发生了意外错误，请重试。",
+    "retry": "重试"
+  },
+  "theme": {
+    "toggle": "切换明暗",
+    "color": "选择主题色"
+  }
+}

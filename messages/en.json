@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "blog": "Blog",
+    "projects": "Projects",
+    "about": "About"
+  },
+  "home": {
+    "greeting": "Hi, I'm {name}",
+    "cta_blog": "Read Blog",
+    "cta_about": "About Me"
+  },
+  "blog": {
+    "title": "Blog",
+    "no_posts": "No posts yet. Check back soon!"
+  },
+  "about": {
+    "title": "About",
+    "coming_soon": "Coming soon."
+  },
+  "projects": {
+    "title": "Projects",
+    "coming_soon": "Coming soon."
+  },
+  "comments": {
+    "title": "Comments",
+    "loading": "Loading comments…",
+    "empty": "No comments yet. Be the first!",
+    "name": "Name *",
+    "email": "Email * (not displayed)",
+    "body": "Leave a comment…",
+    "submit": "Post Comment",
+    "submitting": "Posting…",
+    "name_required": "Name is required",
+    "email_invalid": "Invalid email",
+    "body_required": "Comment is required"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "not_found": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "go_home": "Go home"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred. Please try again.",
+    "retry": "Try again"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "color": "Choose color"
+  }
+}
