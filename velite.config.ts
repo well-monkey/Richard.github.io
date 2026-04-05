@@ -15,6 +15,7 @@ const posts = defineCollection({
       // s.path() gives the file path relative to the content root (e.g. "posts/my-post").
       // Using the file path as slug guarantees uniqueness — unlike deriving from title.
       path: s.path(),
+      body: s.markdown(),
     })
     .transform((data) => ({
       ...data,

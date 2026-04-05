@@ -8,7 +8,7 @@ import { generateArticleJsonLd } from '@/utils/seo/jsonLd'
 import type { Post } from '@/types/blog'
 
 // Velite-generated posts — imported after build
-let posts: (Post & { body: string })[] = []
+let posts: Post[] = []
 try {
   // eslint-disable-next-line @typescript-eslint/no-require-imports
   posts = require('@/.velite').posts

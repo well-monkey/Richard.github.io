@@ -8,6 +8,7 @@ export type Post = {
   cover?: string
   slug: string
   slugAsParams: string
+  body: string
 }
 
 export type Project = {
