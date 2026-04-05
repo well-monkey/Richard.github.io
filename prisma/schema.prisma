@@ -18,10 +18,14 @@ model Comment {
   @@index([postSlug])
 }
 
+enum ReactionType {
+  like
+}
+
 model Reaction {
-  id        String   @id @default(cuid())
+  id        String       @id @default(cuid())
   postSlug  String
-  type      String
+  type      ReactionType
   sessionId String
   createdAt DateTime @default(now())
 

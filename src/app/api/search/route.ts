@@ -1,7 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { ok, fail } from '@/types/api'
+import { rateLimit, getClientIp } from '@/lib/rate-limit'
 
 export async function GET(request: NextRequest) {
+  const ip = getClientIp(request)
+  if (!rateLimit(`search:${ip}`, 30, 60_000)) {
+    return NextResponse.json(fail('Too many requests'), { status: 429 })
+  }
+
   const q = request.nextUrl.searchParams.get('q')?.trim()
   if (!q || q.length < 2) {
     return NextResponse.json(fail('Query too short'), { status: 400 })
