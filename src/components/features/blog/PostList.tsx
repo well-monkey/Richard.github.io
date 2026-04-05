@@ -11,6 +11,7 @@ let allPosts: {
   featured: boolean
   slug: string
   slugAsParams: string
+  body: string
 }[] = []
 
 try {
