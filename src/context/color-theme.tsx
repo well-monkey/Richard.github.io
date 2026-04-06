@@ -1,8 +1,10 @@
+
 'use client'
 
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react'
+import type { ColorTheme } from '@/config/themes'
 
-export type ColorTheme = 'blue' | 'purple' | 'green' | 'orange'
+export type { ColorTheme }
 
 const STORAGE_KEY = 'color-theme'
 const DEFAULT_COLOR: ColorTheme = 'blue'

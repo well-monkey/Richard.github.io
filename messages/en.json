@@ -11,7 +11,9 @@
   },
   "blog": {
     "title": "Blog",
-    "no_posts": "No posts yet. Check back soon!"
+    "no_posts": "No posts yet. Check back soon!",
+    "tag_title": "Tag: {tag}",
+    "tagged_posts": "Posts tagged \"{tag}\""
   },
   "about": {
     "title": "About",
@@ -49,6 +51,13 @@
   },
   "theme": {
     "toggle": "Toggle theme",
-    "color": "Choose color"
+    "color": "Choose color",
+    "blue": "Blue",
+    "purple": "Purple",
+    "green": "Green",
+    "orange": "Orange",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
   }
 }

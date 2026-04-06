@@ -11,7 +11,9 @@
   },
   "blog": {
     "title": "博客",
-    "no_posts": "暂无文章，敬请期待。"
+    "no_posts": "暂无文章，敬请期待。",
+    "tag_title": "标签：{tag}",
+    "tagged_posts": "标签「{tag}」下的文章"
   },
   "about": {
     "title": "关于",
@@ -49,6 +51,13 @@
   },
   "theme": {
     "toggle": "切换明暗",
-    "color": "选择主题色"
+    "color": "选择主题色",
+    "blue": "蓝色",
+    "purple": "紫色",
+    "green": "绿色",
+    "orange": "橙色",
+    "light": "浅色",
+    "dark": "深色",
+    "system": "跟随系统"
   }
 }
